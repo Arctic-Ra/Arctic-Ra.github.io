@@ -56,6 +56,11 @@
   margin-right: 30px;
 }
 
+.block-content.additional {
+  font-size: larger;
+  font-weight: 400;
+}
+
 .block-content-stuff {
   display: flex;
   justify-content:space-between;
@@ -74,6 +79,13 @@
   height: fit-content;
 }
 
+.paths-card {
+  margin-bottom: 30px;
+  justify-content: left;
+  width: 49%;
+  height: fit-content;
+}
+
 .stuff-card-photo {
   justify-content: left;
   width: auto;
@@ -84,6 +96,10 @@
   align-items: center;
   display: flex;
   background-size: cover;
+}
+
+.stuff-card-photo.paths {
+  aspect-ratio: 1.8;
 }
 
 .stuff-card-credits {
