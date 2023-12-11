@@ -59,9 +59,11 @@
 .block-content.additional {
   font-size: larger;
   font-weight: 400;
+  display: flex;
+  flex-direction: row;
 }
 
-.block-content-stuff {
+.block-content-staff {
   display: flex;
   justify-content:space-between;
   flex-wrap: wrap;
@@ -72,7 +74,7 @@
   margin-top: 20px;
 }
 
-.stuff-card {
+.staff-card {
   margin-bottom: 30px;
   justify-content: left;
   width: 31.8%;
@@ -86,7 +88,7 @@
   height: fit-content;
 }
 
-.stuff-card-photo {
+.staff-card-photo {
   justify-content: left;
   width: auto;
   aspect-ratio: 1;
@@ -98,11 +100,11 @@
   background-size: cover;
 }
 
-.stuff-card-photo.paths {
+.staff-card-photo.paths {
   aspect-ratio: 1.8;
 }
 
-.stuff-card-credits {
+.staff-card-credits {
   justify-content: left;
   margin-top: 10px;
   font-weight: 500;
@@ -110,7 +112,7 @@
   overflow: hidden;
 }
 
-.stuff-card-credits.description {
+.staff-card-credits.description {
   margin-top: 5px;
   font-weight: 200;
 }
